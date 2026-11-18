@@ -1,11 +1,11 @@
 <div align="center">
 
-<h1>Mind the Gap</h1>
+<p><a href="https://proceedings.mlr.press/v306/chen26n.html"><img src="assets/icml2026-banner.jpg" width="100%" alt="ICML 2026 · Mind the Gap"></a></p>
 <h3>Catching Hallucinations via Evidence Drop on the Reasoning Manifold</h3>
 
 <p>Qunjie Chen · Yufei Chen · Xiaodong Yue · Linye Li</p>
 
-<p><b>ICML 2026</b> · <a href="https://proceedings.mlr.press/v306/chen26n.html">Paper</a> · <a href="https://openreview.net/forum?id=gllCfOG1Gt">OpenReview</a> · <a href="#quickstart">Quickstart</a> · <a href="#results">Results</a> · <a href="#citation">Citation</a></p>
+<p><a href="https://proceedings.mlr.press/v306/chen26n.html">Paper</a> · <a href="https://openreview.net/forum?id=gllCfOG1Gt">OpenReview</a> · <a href="#quickstart">Quickstart</a> · <a href="#results">Results</a> · <a href="#citation">Citation</a></p>
 
 </div>
 
