@@ -10,6 +10,7 @@
 </div>
 
 A reasoning trace can have low average uncertainty even when one step goes wrong. Evidence Drop measures abrupt losses of token-level support and uses a calibrated hypothesis test to decide when to abstain. It uses the model's token log probabilities and requires no fine-tuning.
+If you have any question, please contact the author through 2250115@tongji.edu.cn
 
 ## Why evidence drops?
 
