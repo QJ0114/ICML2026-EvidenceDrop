@@ -32,8 +32,8 @@ Under the paper's hypothesis test, the null is an unreliable trace. The release 
 Use Python 3.11 on Linux with a CUDA-enabled NVIDIA GPU. The release requirements pin vLLM 0.10.2. See the [vLLM GPU installation guide](https://docs.vllm.ai/en/v0.10.2/getting_started/installation/gpu.html) for platform-specific PyTorch and CUDA instructions.
 
 ```bash
-git clone https://github.com/QJ0114/evidence-drop.git
-cd evidence-drop
+git clone https://github.com/QJ0114/ICML-2026-Mind-the-Gap-Catching-Hallucinations-via-Evidence-Drop-on-the-Reasoning-Manifold.git
+cd ICML-2026-Mind-the-Gap-Catching-Hallucinations-via-Evidence-Drop-on-the-Reasoning-Manifold
 python3.11 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
