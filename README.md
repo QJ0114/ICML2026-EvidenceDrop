@@ -104,15 +104,9 @@ Figure 2 compares correct (green) and incorrect (red) MATH responses. The top ro
 ## Citation
 
 ```bibtex
-@inproceedings{chen2026mind,
-  title     = {Mind the Gap: Catching Hallucinations via Evidence Drop on the Reasoning Manifold},
-  author    = {Chen, Qunjie and Chen, Yufei and Yue, Xiaodong and Li, Linye},
-  booktitle = {Proceedings of the 43rd International Conference on Machine Learning},
-  series    = {Proceedings of Machine Learning Research},
-  volume    = {306},
-  pages     = {13782--13806},
-  publisher = {PMLR},
-  year      = {2026},
-  url       = {https://proceedings.mlr.press/v306/chen26n.html}
+@inproceedings{chenmind,
+  title={Mind the Gap: Catching Hallucinations via Evidence Drop on the Reasoning Manifold},
+  author={Chen, Qunjie and Chen, Yufei and Yue, Xiaodong and Li, Linye},
+  booktitle={Forty-third International Conference on Machine Learning}
 }
 ```
