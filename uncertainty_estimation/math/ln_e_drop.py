@@ -87,6 +87,15 @@ def is_math_equivalent(pred_str, gt_str):
     except:
         pass
 
+    # SymPy evaluates Python syntax. Allow only arithmetic and a small set
+    # of symbolic names before passing model-generated text to the parser.
+    allowed_names = {"pi", "sqrt", "e", "x", "y", "z", "a", "b", "c", "n", "i"}
+    for expression in (clean_pred, clean_gt):
+        if not re.fullmatch(r"(?:[+*/^(),-]|[0-9]+(?:\.[0-9]+)?|\.[0-9]+|[A-Za-z]+)+", expression):
+            return False
+        if not set(re.findall(r"[A-Za-z]+", expression)) <= allowed_names:
+            return False
+
     try:
         diff = simplify(parse_expr(clean_pred) - parse_expr(clean_gt))
         if diff == 0:
